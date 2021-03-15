@@ -35,7 +35,7 @@ Vous pouvez utiliser des icônes Bootstrap (format SVG)
 
 Au dèla de ce que nous avons vu ensemble, vous devez plonger dans la documentation de [bootstap 5](https://v5.getbootstrap.com/) pour trouver des nouveaux "componenets" ou "utilities" adapté à ce projet.
 
-Quelques astuce :
+Quelques astuces :
 
 - [Carousel](https://v5.getbootstrap.com/docs/5.0/components/carousel/)
 - [List group](https://v5.getbootstrap.com/docs/5.0/components/list-group/)
@@ -46,12 +46,12 @@ Quelques astuce :
 
 ## Validation
 
-Structure du site respectée (/5)    
-Proprété du code (/3)    
-Menu de navigation (responsive + dropdown) (/3)    
-Sémantique HMTL valide Utiliser validateur W3C (/2)    
-Mise en place du carousel Bootstrap5 (/2)    
-Adaptation aux écrans mobiles (/2)  
-Le design est respecté (/3)  
+Structure du site respectée (/5)
+Propreté du code (/3)
+Menu de navigation (responsive + dropdown) (/3)
+Sémantique HMTL valide Utiliser validateur W3C (/2)
+Mise en place du carousel Bootstrap5 (/2)
+Adaptation aux écrans mobiles (/2)
+Le design est respecté (/3)
 
 Bon courage ! 💪
