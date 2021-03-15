@@ -1,68 +1,110 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Contact</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
-      crossorigin="anonymous"
-    />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap"
-      rel="stylesheet"
-    />
-    <link href="style.css" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link rel="stylesheet" href="style.css">
   </head>
+  <body>
 
-</body>
+    <header class="text-center my-4">
 
-<main>
+      <h1>AlyraMag</h1>
 
-<div class="container">
+    </header>
 
-<img src="images/big_image_1.jpg" width="100%" height="100%" alt="Big Image 1"/>
-<h1 class="text-center">Contact Us</h1>
+    <nav class="d-flex justify-content-center  navbar navbar-expand navbar-expand-sm navbar-dark bg-light">
+      <ul class="navbar-nav ">
+        <li class="nav-item">
+          <a class="nav-link text-muted" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-muted" href="">Travel</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-muted" href="category.html">Categories <i class="fas fa-caret-down"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-muted" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </nav>
 
-<p class="lead mb-5 text-center">
-  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
-  ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem
-  malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo,
-  tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-</p>
 
-<form role="form">
+    <div class="container">
+      <div class="row">
+	<main class="col-9">
+	  <div class="container">
 
-<div class="mb-3">
-  <label for="Name" class="form-label" >Name*</label>
-  <input type="name" class="form-control" id="Name" placeholder="">
-</div>
-<div class="mb-3">
-  <label for="Phone" class="form-label">Phone</label>
-  <input type="phone" class="form-control" id="Phone" placeholder="">
-</div>
-<div class="mb-3">
-  <label for="Email" class="form-label">Email*</label>
-  <input type="email" class="form-control" id="Email" placeholder="">
-</div>
-<div class="mb-3">
-  <label for="Message" class="form-label">Write Message</label>
-  <textarea class="form-control" id="Message" rows="3"></textarea>
-</div>
-<button type="submit" class="btn btn-dark btn-md">Send Message</button>
+	    <img src="images/big_image_1.jpg" width="100%" height="100%" alt="Big Image 1"/>
+	    <h1 class="text-center">Contact Us</h1>
 
-</form>
+	    <p class="lead mb-5 text-center">
+	      Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+	      ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem
+	      malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo,
+	      tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+	    </p>
 
-</div>
-</main>
+	    <form role="form">
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
-    crossorigin="anonymous">
-  </script>
+	      <div class="mb-3">
+		<label for="Name" class="form-label" >Name*</label>
+		<input type="name" class="form-control" id="Name" placeholder="">
+	      </div>
+	      <div class="mb-3">
+		<label for="Phone" class="form-label">Phone</label>
+		<input type="phone" class="form-control" id="Phone" placeholder="">
+	      </div>
+	      <div class="mb-3">
+		<label for="Email" class="form-label">Email*</label>
+		<input type="email" class="form-control" id="Email" placeholder="">
+	      </div>
+	      <div class="mb-3">
+		<label for="Message" class="form-label">Write Message</label>
+		<textarea class="form-control" id="Message" rows="3"></textarea>
+	      </div>
+	      <button type="submit" class="btn btn-dark btn-md">Send Message</button>
 
-</body>
+	    </form>
+
+	  </div>
+	</main>
+
+	<aside class="col-3">
+	  <label for="search-bar"></label>
+	  <input id="search-bar" type="text" placeholder="Search Here…">
+
+	  <div class="border p-2 m-3">
+	    <h2>David Craig</h2>
+	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	  </div>
+
+	  <div class="border p-2 m-3">
+	    <h2>Popular Posts</h2>
+	  </div>
+
+	  <div class="border p-2 m-3">
+	    <h2>Categories</h2>
+	  </div>
+
+	  <div class="border p-2 m-3">
+	    <h2>Tags</h2>
+	  </div>
+
+	</aside>
+      </div>
+    </div>
+
+    <footer class="row mt-4">
+      <span class="bg-dark p-5 text-white text-center">&copy; 2020 Made with <i class="text-danger fas fa-heart fa-1x mb-1"></i> for Alyra</span>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+  </body>
 </html>
