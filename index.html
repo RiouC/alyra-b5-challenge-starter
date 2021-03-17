@@ -162,13 +162,13 @@
     </div>
     <div class="container my-4">
       <h2 class="mb-3 mt-5">Latest Posts</h2>
-	<div class="d-flex flex-column flex-lg-row justify-content align-items-center align-items-lg-start">
+      <div class="d-flex flex-column flex-lg-row justify-content align-items-center align-items-lg-start">
         <main class="py-3 mb-5 bg-white">
           <div class="row row-col-xl-3 row-col-md-2 row-col-xs-1 g-4">
             <div class="col-md-6 col-lg-4">
               <div class="card" style="width: 100%">
                 <div class="shadow-lg bg-white rounded">
-                  <img src="images/img_1.jpg" class="card-img-top" alt="Homme dans l'avion" />
+                  <img src="images/img_1.jpg" class="card-img-top" alt="Homme dans l'avion" width="50%"/>
                   <div class="card-body">
                     <div class="d-flex justify-content-between align-items-center pb-3">
                       <img
@@ -385,37 +385,42 @@
           </div>
         </main>
 
-        
-        <aside class="col-lg-3">
-          <div class="input-group ms-lg-3 col-md-12 mt-3">
+
+	<aside class="col-xl-3 col-md-12">
+	  <div class="input-group ms-lg-3 col-md-12 mt-3">
             <button type="button" class="btn btn-secondary"><i class="fas fa-search"></i></button>
-            <input type="search" class="form-control rounded" placeholder="Search here..." aria-label="Search"
-		   aria-describedby="search-addon" />
+            <input type="search" class="form-control rounded" placeholder="Search here..." aria-label="Search" />
           </div>
-	  
-          <div class="shadow p-3 m-lg-3 my-4 bg-white col-md-12 text-center">
-	    
-            <img src="images/person_1.jpg" width="40%" height="auto" alt="Person 1"
-		 class="img-fluid rounded-circle mb-4" />
+
+	  <div class="shadow p-3 m-lg-3 my-4 bg-white col-md-12 text-center">
+            <img
+              src="images/person_1.jpg"
+              width="128"
+              height="128"
+              alt="David Craig"
+              class="img-fluid rounded-circle mb-4"
+              />
             <h3>David Craig</h3>
-            <p class="fw-light text-dark">
+            <p class="lead text-dark">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem facilis sunt repellendus
               excepturi beatae porro debitis voluptate nulla quo veniam fuga sit molestias minus.
             </p>
-	    
-            <h4><span class="badge bg-dark">Read my bio</span></h4>
-            <div class="d-flex justify-content-center mt-4 gap-4">
-              <i class="fab fa-facebook-f"></i>
-              <i class="fab fa-twitter"></i>
-              <i class="fab fa-instagram"></i>
-              <i class="fab fa-youtube"></i>
+
+            <div>
+              <button type="button" class="btn btn-dark fw-light">Read my bio</button>
+            </div>
+
+            <div class="d-flex justify-content-center mt-3 gap-1">
+              <i class="fab fa-facebook-f p-3"></i>
+              <i class="fab fa-twitter p-3"></i>
+              <i class="fab fa-instagram p-3"></i>
+              <i class="fab fa-youtube p-3"></i>
             </div>
           </div>
-	  
-	  
-	  <div class="shadow p-3 m-lg-3 my-4 col-md-12">
-	    <h3 class="pb-3">Popular Posts</h3>
-	    
+
+	  <div class="shadow p-3 m-lg-3 my-4 bg-white col-md-12">
+            <h3 class="pb-3">Popular Posts</h3>
+
             <article class="pb-2">
               <img src="images/img_2.jpg" alt="Pots de fleurs" width="130" class="float-start" />
               <div class="d-flex flex-column">
@@ -440,71 +445,71 @@
               </div>
             </article>
           </div>
-	  
-          <div class="shadow p-3 m-lg-3 my-4 bg-white col-md-12">
+
+	  <div class="shadow p-3 m-lg-3 my-4 bg-white col-md-12">
             <h3>Categories</h3>
             <div class="d-flex justify-content-between fs-5 text-secondary pt-3">
-              <p>Food</p>
-              <p>(12)</p>
+              <p class="text-dark">Food</p>
+              <p class="text-dark">(12)</p>
             </div>
-            <hr class="m-0">
+            <hr class="m-0" />
             <div class="d-flex justify-content-between fs-5 text-secondary pt-3">
-              <p>Travel</p>
-              <p>(22)</p>
+              <p class="text-dark">Travel</p>
+              <p class="text-dark">(22)</p>
             </div>
-            <hr class="m-0">
+            <hr class="m-0" />
+            <div class="d-flex justify-content-between fs-5 pt-3">
+              <p class="text-dark">Lifestyle</p>
+              <p class="text-dark">(37)</p>
+            </div>
+            <hr class="m-0" />
             <div class="d-flex justify-content-between fs-5 text-secondary pt-3">
-              <p>Lifestyle</p>
-              <p>(37)</p>
+              <p class="text-dark">Business</p>
+              <p class="text-dark">(42)</p>
             </div>
-            <hr class="m-0">
+            <hr class="m-0" />
             <div class="d-flex justify-content-between fs-5 text-secondary pt-3">
-              <p>Business</p>
-              <p>(42)</p>
+              <p class="text-dark">Adventure</p>
+              <p class="text-dark">(14)</p>
             </div>
-            <hr class="m-0">
-            <div class="d-flex justify-content-between fs-5 text-secondary pt-3">
-              <p>Adventure</p>
-              <p>(14)</p>
-            </div>
-	    
           </div>
-	  
-          <div class="shadow p-3 m-lg-3 my-4 bg-white col-md-12">
-            <h3>Tags</h3>
-            <div class="d-flex align-content-start flex-wrap">
-              <h5><span class="badge bg-secondary p-2 ms-1">Travel</span></h5>
-              <h5><span class="badge bg-secondary p-2 ms-1">Adventure</span></h5>
-              <h5><span class="badge bg-secondary p-2 ms-1">Food</span></h5>
-	      
-              <h5><span class="badge bg-secondary p-2 ms-1">Lifestyle</span></h5>
-              <h5><span class="badge bg-secondary p-2 ms-1">Business</span></h5>
-	      
-              <h5><span class="badge bg-secondary p-2 ms-1">Freelancing</span></h5>
-              <h5><span class="badge bg-secondary p-2 ms-1">Travel</span></h5>
-	      
-              <h5><span class="badge bg-secondary p-2 ms-1">Adventure</span></h5>
-              <h5><span class="badge bg-secondary p-2 ms-1">Food</span></h5>
-              <h5><span class="badge bg-secondary p-2 ms-1">Lifestyle</span></h5>
-	      
-              <h5><span class="badge bg-secondary p-2 ms-1">Business</span></h5>
-              <h5><span class="badge bg-secondary p-2 ms-1">Freelancing</span></h5>
-	      
-            </div>
-        </aside>
-	</div>
-      </div>
 
-      <footer class="row mt-4">
-	<span class="bg-dark p-5 text-white text-center"
-              >&copy; 2020 Made with <i class="text-danger fas fa-heart fa-1x mb-1"></i> for Alyra</span
-												    >
-      </footer>
-      <!-- JavaScript Bundle with Popper -->
-      <script
-	src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-	integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
-	crossorigin="anonymous"
-	></script>
+	  <div class="shadow p-3 m-lg-3 my-4 bg-white col-md-12">
+            <h3>Tags</h3>
+            <div class="d-flex flex-wrap">
+              <p class="badge bg-secondary p-2 m-1 fs-5 fw-light">Travel</p>
+              <p class="badge bg-secondary p-2 m-1 fs-5 fw-light">Adventure</p>
+              <p class="badge bg-secondary p-2 m-1 fs-5 fw-light">Food</p>
+
+              <p class="badge bg-secondary p-2 m-1 fs-5 fw-light">Lifestyle</p>
+              <p class="badge bg-secondary p-2 m-1 fs-5 fw-light">Business</p>
+
+              <p class="badge bg-secondary p-2 m-1 fs-5 fw-light">Freelancing</p>
+              <p class="badge bg-secondary p-2 m-1 fs-5 fw-light">Travel</p>
+
+              <p class="badge bg-secondary p-2 m-1 fs-5 fw-light">Adventure</p>
+              <p class="badge bg-secondary p-2 m-1 fs-5 fw-light">Food</p>
+              <p class="badge bg-secondary p-2 m-1 fs-5 fw-light">Lifestyle</p>
+
+              <p class="badge bg-secondary p-2 m-1 fs-5 fw-light">Business</p>
+              <p class="badge bg-secondary p-2 m-1 fs-5 fw-light">Freelancing</p>
+            </div>
+          </div>
+        </aside>
+
+      </div>
+    </div>
+
+    <footer class="row mt-4">
+      <span class="bg-dark p-5 text-white text-center"
+            >&copy; 2020 Made with <i class="text-danger fas fa-heart fa-1x mb-1"></i> for Alyra</span
+												  >
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+      ></script>
   </body>
 </html>
